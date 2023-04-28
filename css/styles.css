@@ -1,0 +1,40 @@
+/* CSS Document */
+/* #5C3317 - Dark Brown
+#804720 - Brown
+#F7A26C - Tangerine
+#CCAF9D - Desert Sand
+#E76A1A - Spanish Orange
+*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.fnav {
+	font-size: 1em;
+	text-align: left;
+}
+
+.fnav li {
+	display: inline;
+}
+
+.fnav a {
+	color: #E76A1A;
+	text-decoration: none;
+}
+
+.fnav a:hover {
+	text-decoration: line-through;
+	color: #F7A26C;
+}
+
+body {
+	font-size: 2em;
+	background: #804720;
+}
+
+.submit, .startOver {
+	font-size: .7em;
+}
